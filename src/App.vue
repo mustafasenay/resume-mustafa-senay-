@@ -1,32 +1,32 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <app-header-page></app-header-page>
+    <router-link to="/"></router-link>
+    <router-link to="/about"></router-link>
+    <router-view></router-view>
+    <app-footer-page></app-footer-page>
   </div>
 </template>
 
+<script>
+import HeaderPage from "./shared/HeaderPage.vue"
+import FooterPage from "./shared/FooterPage.vue"
+export default {
+  components : {
+    appHeaderPage : HeaderPage,
+    appFooterPage : FooterPage,
+  }
+}
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+  *{
+    background-color: #0A192F;
+    color: white;
+  }
+  body {
+    font-family: "IBM Plex Mono",monospace;
+    font-weight: 400;
+    color: #1a1a24;
+    font-size: 1rem;
+  }
 </style>
