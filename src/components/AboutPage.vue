@@ -6,31 +6,31 @@
                  <h1>some of my works</h1>
                </div>
                <div class="portfolioBox row d-flex justify-content-center align-items-center">
-                 <div class="col-3 porfolioCards">
+                 <div class="col-md-3 porfolioCards">
                    <img src="../assets/Portfolio1.png" alt="" class="portfolioImageSize">
                    <div class="d-flex flex-column text-center mt-3">
                      <a href="https://github.com/mustafasenay/to-do-vue.git" class="btn portfolioButton">View in GitHub</a>
                    </div>
                  </div>
-                 <div class="col-3 porfolioCards">
+                 <div class="col-md-3 porfolioCards">
                    <img src="../assets/Portfolio2.png" alt="" class="portfolioImageSize">
                    <div class="d-flex flex-column text-center mt-3">
                      <a href="https://github.com/mustafasenay/ecommerce.git" class="btn portfolioButton">View in GitHub</a>
                    </div>
                  </div>
-                 <div class="col-3 porfolioCards">
+                 <div class="col-md-3 porfolioCards">
                    <img src="../assets/Portfolio3.png" alt="" class="portfolioImageSize">
                    <div class="d-flex flex-column text-center mt-3">
                      <a href="https://github.com/mustafasenay/login.git" class="btn portfolioButton">View in GitHub</a>
                    </div>
                  </div>
-                 <div class="col-3 porfolioCards">
+                 <div class="col-md-3 porfolioCards">
                    <img src="../assets/Portfolio4.png" alt="" class="portfolioImageSize">
                    <div class="d-flex flex-column text-center mt-3">
                      <a href="https://github.com/mustafasenay/fashion-website.git" class="btn portfolioButton">View in GitHub</a>
                    </div>
                  </div>
-                 <div class="col-3 porfolioCards">
+                 <div class="col-md-3 porfolioCards">
                    <img src="../assets/Portfolio5.png" alt="" class="portfolioImageSize">
                    <div class="d-flex flex-column text-center mt-3">
                      <a href="https://github.com/mustafasenay/basic-e-commerce-localstorage.git" class="btn portfolioButton">View in GitHub</a>

@@ -3,7 +3,7 @@
     <section class="introSide">
       <div class="container">
         <div class="row text-start">
-          <div class="col">
+          <div class="col-md-12">
             <div>
               <h7 class="animate__animated animate__flash">Hi,</h7>
             </div>

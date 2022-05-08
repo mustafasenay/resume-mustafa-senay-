@@ -1,17 +1,17 @@
 <template>
   <div>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light mt-3">
+      <nav class="navbar navbar-expand-md navbar-light mt-3">
         <div class="container-fluid">
           <a class="navbar-brand ms-5 fs-1 border p-5 border-color-aqua" href="#">MS</a>
-            <ul class="navbar-nav mb-2 mb-lg-0 margin-left-50">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
               <li class="nav-item">
                 <router-link
                 to="/"
                 tag="a"
                 class="nav-link fs-3 me-5"
                 >
-                <i class="fas fa-angle-left"></i> Welcome <i class="fas fa-angle-right"></i>
+                Welcome
                 </router-link>
               </li>
               <li class="nav-item fs-3 me-5">
@@ -20,7 +20,7 @@
                 tag="a"
                 class="nav-link"
                 >
-                <i class="fas fa-angle-left"></i> Portfolio <i class="fas fa-angle-right"></i>
+                Portfolio
                 </router-link>
               </li>
               <li class="nav-item fs-3 me-5">
@@ -29,7 +29,7 @@
                 tag="a"
                 class="nav-link"
                 >
-                <i class="fas fa-angle-left"></i> Skills <i class="fas fa-angle-right"></i>
+                Skills
                 </router-link>
               </li>
               <li class="nav-item fs-3 me-5">
@@ -38,7 +38,7 @@
                 tag="a"
                 class="nav-link"
                 >
-                <i class="fas fa-angle-left"></i> Resume <i class="fas fa-angle-right"></i>
+                Resume
                 </router-link>
               </li>
             </ul>
