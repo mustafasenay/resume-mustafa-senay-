@@ -17,6 +17,7 @@
         <h6 class="text-start fs-1 btn-three"><i class="fab fa-bootstrap"></i> Bootstrap</h6>
         <h6 class="text-start fs-1 btn-three"><i class="fab fa-js"></i> JavaScript</h6>
         <h6 class="text-start fs-1 btn-three"><i class="fab fa-vuejs"></i> Vue JS</h6>
+        <h6 class="text-start fs-1 btn-three"><i class="fab fa-python"></i> Python</h6>
         <!-- <h6 class="text-start iconHover fs-1"><i class="fas fa-database"></i> PostgreSQL</h6> -->
         
     </section>
